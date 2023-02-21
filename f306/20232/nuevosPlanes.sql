@@ -1,6 +1,6 @@
 BEGIN; 
 
-SELECT auth.log_session('Insertando tres nuevos planes de estudios, ver #');
+SELECT auth.log_session('Insertando tres nuevos planes de estudios, ver #6707');
 
 -- Agregamos el plan de estudios 1619 de Biología
 INSERT INTO planes.plan_estudios (id,
@@ -24,7 +24,7 @@ INSERT INTO planes.plan_estudios (id,
            1,
            2,
            2010,
-           ,
+           2023,
            1,
            343,
            42,
@@ -52,7 +52,7 @@ INSERT INTO planes.plan_estudios (id,
            1,
            2,
            2012,
-           ,
+           2023,
            1,
            384,
            64,
@@ -80,7 +80,7 @@ INSERT INTO planes.plan_estudios (id,
            1,
            2,
            2017,
-           ,
+           2023,
            1,
            346,
            56,

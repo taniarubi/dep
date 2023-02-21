@@ -1,5 +1,5 @@
 BEGIN;
-SELECT auth.log_session('Insertando alumnos de otros planteles, ver #');
+SELECT auth.log_session('Insertando alumnos de otros planteles, ver #6708');
 
 -- Rangel Ambriz Angel Maximiliano
 INSERT INTO personas.persona (apellido1, apellido2, nombre, fecha_nacimiento, sexo,nacionalidad_id)
@@ -20,7 +20,7 @@ INSERT INTO estudiante.trayectoria (estudiante_id,
 			2023,
 			24,                                            
 			estudiante.calcula_periodo_aplicacion_a22(317346349,1619,2023),
-			estudiante.alcula_periodo_aplicacion_a24(317346349,1619,2023),
+			estudiante.calcula_periodo_aplicacion_a24(317346349,1619,2023),
 			201);
 
 -- Derek Aníbal Soto Hernández 
@@ -87,28 +87,6 @@ INSERT INTO estudiante.trayectoria (estudiante_id,
 			24,                                            
 			estudiante.calcula_periodo_aplicacion_a22(421085895,4205,2023),
 			estudiante.calcula_periodo_aplicacion_a24(421085895,4205,2023),
-			127);
-
--- Elena Vanessa Morales Olmos 
-INSERT INTO personas.persona (apellido1, apellido2, nombre, fecha_nacimiento, sexo,nacionalidad_id)
-	VALUES ('Morales', 'Olmos', 'Elena Vanessa', '2003-01-30','f',484);
-
-INSERT INTO estudiante.estudiante (id,cuenta, persona_id) 
-	VALUES (317317110,317317110,currval('personas.persona_id_seq'));
-    
-INSERT INTO estudiante.trayectoria (estudiante_id, 
-									plan_id, 
-                                    generación, 
-                                    tipo_ingreso_id, 
-                                    periodo_aplicación_a22, 
-                                    periodo_aplicación_a24, 
-                                    especialidad_id)
-	VALUES (317317110, 
-            4205, -- Ciencias de la Tierra 
-			2023,
-			24,                                            
-			estudiante.calcula_periodo_aplicacion_a22(317317110,4205,2023),
-			estudiante.calcula_periodo_aplicacion_a24(317317110,4205,2023),
 			127);
 
 -- Sofía Castro Varona 
@@ -374,50 +352,6 @@ INSERT INTO estudiante.trayectoria (estudiante_id,
 			estudiante.calcula_periodo_aplicacion_a22(420142023,4146,2023),
 			estudiante.calcula_periodo_aplicacion_a24(420142023,4146,2023),
 			216);
-
--- Malinally Karenine Ortiz Rivera 
-INSERT INTO personas.persona (apellido1, apellido2, nombre, fecha_nacimiento, sexo,nacionalidad_id)
-	VALUES ('Ortiz', 'Rivera', 'Malinally Karenine', '2000-05-24','f',484);
-
-INSERT INTO estudiante.estudiante (id,cuenta, persona_id) 
-	VALUES (419012072,419012072,currval('personas.persona_id_seq'));
-    
-INSERT INTO estudiante.trayectoria (estudiante_id, 
-									plan_id, 
-                                    generación, 
-                                    tipo_ingreso_id, 
-                                    periodo_aplicación_a22, 
-                                    periodo_aplicación_a24, 
-                                    especialidad_id)
-	VALUES (419012072, 
-            4077,
-			2023,
-			24,                                            
-			estudiante.calcula_periodo_aplicacion_a22(419012072,4077,2023),
-			estudiante.calcula_periodo_aplicacion_a24(419012072,4077,2023),
-			319);
-
--- Ricardo Meléndez Rendón 
-INSERT INTO personas.persona (apellido1, apellido2, nombre, fecha_nacimiento, sexo,nacionalidad_id)
-	VALUES ('Meléndez', 'Rendón', 'Ricardo', '2000-09-02','m',484);
-
-INSERT INTO estudiante.estudiante (id,cuenta, persona_id) 
-	VALUES (316200912,316200912,currval('personas.persona_id_seq'));
-    
-INSERT INTO estudiante.trayectoria (estudiante_id, 
-									plan_id, 
-                                    generación, 
-                                    tipo_ingreso_id, 
-                                    periodo_aplicación_a22, 
-                                    periodo_aplicación_a24, 
-                                    especialidad_id)
-	VALUES (316200912, 
-            1247, -- Biología (FES Zaragoza)
-			2023,
-			24,                                            
-			estudiante.calcula_periodo_aplicacion_a22(316200912,1247,2023),
-			estudiante.calcula_periodo_aplicacion_a24(316200912,1247,2023),
-			201);
 
 -- Cristopher Eleazar Muñoz Reyes 
 INSERT INTO personas.persona (apellido1, apellido2, nombre, fecha_nacimiento, sexo,nacionalidad_id)
