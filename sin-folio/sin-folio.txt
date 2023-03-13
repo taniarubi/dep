@@ -1,9 +1,4 @@
 BEGIN
- log_session 
--------------
- 
-(1 row)
-
  gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
 -----+-----+-----+--------+---------+-------+------------+-----+--------+--------+-------------+------+-----
 (0 rows)
@@ -14,22 +9,22 @@ BEGIN
 
   gid   |   rid   |  tid  | alplid | asgplid | asgid |                 asignatura                 | gpo  |  cuenta   |             alumno             | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+--------------------------------------------+------+-----------+--------------------------------+-------------+------+-----
- 302058 | 3047032 | 64955 |   1081 |    1081 |   228 | Mecánica Vectorial                         | EB01 | 307173920 | Díaz Trujillo Luis Angel       |             | f    | f
- 302061 | 3047094 | 49160 |   1081 |    1081 |   715 | Física Computacional                       | EB02 | 300190553 | Sánchez Jacobo Daniel          |             | f    | f
- 302065 | 3047210 | 56192 |   1081 |    1081 |  2084 | Introducción a la Física de los Materiales | EB01 | 409002144 | Nava González Ana Karen        |             | f    | f
- 302116 | 3047446 | 80543 |   1556 |    1556 |  1322 | Inglés III                                 | EB01 | 314170147 | Rojas Espinoza Luis Angel      |             | f    | f
- 302039 | 3046875 | 67253 |   1440 |    1439 |  1724 | Taller de Modelación Numérica              | EB01 | 310054652 | Valdés Vilchis Samantha        |             | f    | f
- 302055 | 3046951 | 56260 |   1081 |    1081 |   302 | Fenómenos Colectivos                       | EB02 | 409013742 | Romero Gónzalez Daniel Eleazar |             | f    | f
- 302055 | 3046953 | 64900 |   1081 |    1081 |   302 | Fenómenos Colectivos                       | EB02 | 309064497 | Cabrera Cárdenas Iván          |             | f    | f
- 302062 | 3047131 | 75904 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 313338984 | Luna Cuervo Edwin              |             | f    | f
- 302062 | 3047114 | 49003 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 405083277 | de la Luz Reyes Silverio       |             | f    | f
- 302062 | 3047115 | 58622 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 410054686 | Batalla Hérnandez Invert       |             | f    | f
- 302062 | 3047117 | 61500 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 308229594 | Ortega Bringas Cecilia Andrea  |             | f    | f
- 302062 | 3047127 | 64877 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 309088147 | Antonio Martínez Gerardo       |             | f    | f
- 302062 | 3047153 | 65070 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 412050718 | Martínez Gaytán Renata         |             | f    | f
  302057 | 3047000 | 69369 |   1081 |    1081 |   102 | Computación                                | EB01 | 311075995 | Cuellar González José Rubén    |             | f    | f
+ 302058 | 3047032 | 64955 |   1081 |    1081 |   228 | Mecánica Vectorial                         | EB01 | 307173920 | Díaz Trujillo Luis Angel       |             | f    | f
+ 302055 | 3046953 | 64900 |   1081 |    1081 |   302 | Fenómenos Colectivos                       | EB02 | 309064497 | Cabrera Cárdenas Iván          |             | f    | f
+ 302055 | 3046951 | 56260 |   1081 |    1081 |   302 | Fenómenos Colectivos                       | EB02 | 409013742 | Romero Gónzalez Daniel Eleazar |             | f    | f
+ 302062 | 3047153 | 65070 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 412050718 | Martínez Gaytán Renata         |             | f    | f
+ 302062 | 3047131 | 75904 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 313338984 | Luna Cuervo Edwin              |             | f    | f
+ 302062 | 3047127 | 64877 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 309088147 | Antonio Martínez Gerardo       |             | f    | f
+ 302062 | 3047117 | 61500 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 308229594 | Ortega Bringas Cecilia Andrea  |             | f    | f
+ 302062 | 3047115 | 58622 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 410054686 | Batalla Hérnandez Invert       |             | f    | f
+ 302062 | 3047114 | 49003 |   1081 |    1081 |   610 | Matemáticas Avanzadas de la Física         | EB01 | 405083277 | de la Luz Reyes Silverio       |             | f    | f
+ 302061 | 3047094 | 49160 |   1081 |    1081 |   715 | Física Computacional                       | EB02 | 300190553 | Sánchez Jacobo Daniel          |             | f    | f
  302064 | 3047170 | 61357 |   1081 |    1081 |   827 | Dinámica de Medios Deformables             | EB01 | 308673966 | del Pilar Miranda Augusto Omar |             | f    | f
  302082 | 3047230 | 85401 |   2017 |    2017 |  1135 | Inglés I                                   | EB01 | 316126195 | Peláez Gónzalez Braian         |             | f    | f
+ 302116 | 3047446 | 80543 |   1556 |    1556 |  1322 | Inglés III                                 | EB01 | 314170147 | Rojas Espinoza Luis Angel      |             | f    | f
+ 302039 | 3046875 | 67253 |   1440 |    1439 |  1724 | Taller de Modelación Numérica              | EB01 | 310054652 | Valdés Vilchis Samantha        |             | f    | f
+ 302065 | 3047210 | 56192 |   1081 |    1081 |  2084 | Introducción a la Física de los Materiales | EB01 | 409002144 | Nava González Ana Karen        |             | f    | f
 (16 rows)
 
  gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
@@ -38,52 +33,52 @@ BEGIN
 
   gid   |   rid   |  tid  | alplid | asgplid | asgid |            asignatura            | gpo  |  cuenta   |          alumno           | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+----------------------------------+------+-----------+---------------------------+-------------+------+-----
- 310706 | 3233737 | 72808 |    181 |     181 |  1002 | Anatomía Animal                  | 5318 | 415053567 | Martínez Palestino Andrea | 10          | f    | f
  310724 | 3233738 | 72808 |    181 |     181 |   115 | Ecología de la Conducta          | 5336 | 415053567 | Martínez Palestino Andrea | 10          | f    | f
  310748 | 3233739 | 72808 |    181 |     181 |   235 | Manejo de Vertebrados Terrestres | 5360 | 415053567 | Martínez Palestino Andrea | 10          | f    | f
  310768 | 3233740 | 72808 |    181 |     181 |   798 | Seminario de Biología IV         | 5380 | 415053567 | Martínez Palestino Andrea | 10          | f    | f
+ 310706 | 3233737 | 72808 |    181 |     181 |  1002 | Anatomía Animal                  | 5318 | 415053567 | Martínez Palestino Andrea | 10          | f    | f
 (4 rows)
 
   gid   |   rid   |  tid  | alplid | asgplid | asgid |           asignatura           | gpo  |  cuenta   |              alumno               | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+--------------------------------+------+-----------+-----------------------------------+-------------+------+-----
- 310380 | 3171776 | 79879 |   1442 |    1081 |   827 | Dinámica de Medios Deformables | EB02 | 314031255 | González Ríos Sofía               |             | f    | f
- 310380 | 3171782 | 89177 |   1444 |    1081 |   827 | Dinámica de Medios Deformables | EB02 | 417000244 | Muñoz García María Fernanda       |             | f    | f
- 310365 | 3171499 | 88092 |   1081 |    1081 |   102 | Computación                    | EB01 | 316329011 | Reséndiz Rocha Juan Angel         |             | f    | f
  310365 | 3171500 | 87005 |   1081 |    1081 |   102 | Computación                    | EB01 | 317053058 | Bonilla Flores Oscar Axel         |             | f    | f
- 310383 | 3171841 | 76738 |   4138 |    2016 |  1830 | Imagenología Biomédica         | EB01 | 416012956 | Cortés Díaz Mario                 |             | f    | f
- 312201 | 3172134 | 80526 |    181 |     181 |  1600 | Biología de Animales III       | EB01 | 314068538 | Rodríguez Flores Aide Aline       |             | f    | f
+ 310365 | 3171499 | 88092 |   1081 |    1081 |   102 | Computación                    | EB01 | 316329011 | Reséndiz Rocha Juan Angel         |             | f    | f
+ 310380 | 3171782 | 89177 |   1444 |    1081 |   827 | Dinámica de Medios Deformables | EB02 | 417000244 | Muñoz García María Fernanda       |             | f    | f
+ 310380 | 3171776 | 79879 |   1442 |    1081 |   827 | Dinámica de Medios Deformables | EB02 | 314031255 | González Ríos Sofía               |             | f    | f
+ 312211 | 3172351 | 87945 |    181 |     181 |  1103 | Matemáticas I                  | EB01 | 317182813 | Ortíz Gónzalez Ana Lilia          |             | f    | f
+ 312211 | 3172345 | 87098 |    181 |     181 |  1103 | Matemáticas I                  | EB01 | 317342406 | Chagoyan Macotela Cynthia         |             | f    | f
+ 312212 | 3172382 | 88237 |    181 |     181 |  1104 | Química                        | EB01 | 317231409 | Sánchez Cortés María Fernanda     |             | f    | f
+ 312212 | 3172380 | 88059 |    181 |     181 |  1104 | Química                        | EB01 | 317252574 | Ramírez García Perla Mariana      |             | f    | f
+ 312212 | 3172377 | 87752 |    181 |     181 |  1104 | Química                        | EB01 | 317047211 | Martínez Patiño Chantall Carolina |             | f    | f
  312202 | 3172145 | 84584 |    181 |     181 |  1301 | Biología de Plantas I          | EB01 | 316297451 | Benavides Flores Grecia Magaly    |             | f    | f
+ 312201 | 3172134 | 80526 |    181 |     181 |  1600 | Biología de Animales III       | EB01 | 314068538 | Rodríguez Flores Aide Aline       |             | f    | f
  312207 | 3172272 | 72579 |    181 |     181 |  1601 | Evolución I                    | EB01 | 312061313 | Zuñiga Flores Francisco Javier    |             | f    | f
  312208 | 3172279 | 75387 |    181 |     181 |  1601 | Evolución I                    | EB02 | 313294437 | Carapia Alvarado Diana            |             | f    | f
- 312211 | 3172345 | 87098 |    181 |     181 |  1103 | Matemáticas I                  | EB01 | 317342406 | Chagoyan Macotela Cynthia         |             | f    | f
- 312211 | 3172351 | 87945 |    181 |     181 |  1103 | Matemáticas I                  | EB01 | 317182813 | Ortíz Gónzalez Ana Lilia          |             | f    | f
- 312212 | 3172377 | 87752 |    181 |     181 |  1104 | Química                        | EB01 | 317047211 | Martínez Patiño Chantall Carolina |             | f    | f
- 312212 | 3172380 | 88059 |    181 |     181 |  1104 | Química                        | EB01 | 317252574 | Ramírez García Perla Mariana      |             | f    | f
- 312212 | 3172382 | 88237 |    181 |     181 |  1104 | Química                        | EB01 | 317231409 | Sánchez Cortés María Fernanda     |             | f    | f
+ 310383 | 3171841 | 76738 |   4138 |    2016 |  1830 | Imagenología Biomédica         | EB01 | 416012956 | Cortés Díaz Mario                 |             | f    | f
 (14 rows)
 
   gid   |   rid   |  tid  | alplid | asgplid | asgid |                     asignatura                      | gpo  |  cuenta   |            alumno            | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+-----------------------------------------------------+------+-----------+------------------------------+-------------+------+-----
  316726 | 3311384 | 75635 |    181 |     181 |    66 | Fotografía y Microfotografía                        | 5370 | 313112597 | García Orato Jessica Vianey  | 10          | f    | f
+ 316961 | 3279107 | 87848 |   2017 |     217 |    93 | Cálculo Diferencial e Integral III                  | 4136 | 114005289 | Mora García Jacqueline Danae | NP          | f    | f
  316749 | 3311385 | 75635 |    181 |     181 |   230 | Restauración Ecológica                              | 5393 | 313112597 | García Orato Jessica Vianey  | 10          | f    | f
  316757 | 3311386 | 75635 |    181 |     181 |   797 | Seminario de Biología III                           | 5401 | 313112597 | García Orato Jessica Vianey  | 09          | f    | f
- 316961 | 3279107 | 87848 |   2017 |     217 |    93 | Cálculo Diferencial e Integral III                  | 4136 | 114005289 | Mora García Jacqueline Danae | NP          | f    | f
- 325756 | 3395147 | 58658 |    217 |     217 |   964 | Seminario de Apoyo a la Titulación en Matemáticas B | EL01 | 410061437 | Garrido Reyes Miguel Daniel  |             | f    | f
- 317599 | 3311408 | 75308 |   2017 |    1176 |  1050 | Administración Financiera                           | 9114 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
- 317602 | 3311409 | 75308 |   2017 |    1176 |  1055 | Auditoría Actuarial                                 | 9117 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
- 317611 | 3311410 | 75308 |   2017 |    1176 |  1605 | Legislación en Seguro Privado y Social              | 9126 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
- 317612 | 3311411 | 75308 |   2017 |    1176 |  1054 | Mercadotecnia de Seguros                            | 9127 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
- 317614 | 3311412 | 75308 |   2017 |    1176 |  1813 | Planeación Estratégica                              | 9129 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
- 318328 | 3307465 | 80958 |   2016 |    2016 |  1332 | Inglés                                              | 3036 | 417054436 | Mateos Solorio José Erick    | NP          | f    | f
  318335 | 3311387 | 75635 |    181 |     181 |   831 | Temas Selectos de Biología II                       | 5585 | 313112597 | García Orato Jessica Vianey  | 10          | f    | f
+ 317599 | 3311408 | 75308 |   2017 |    1176 |  1050 | Administración Financiera                           | 9114 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
+ 317612 | 3311411 | 75308 |   2017 |    1176 |  1054 | Mercadotecnia de Seguros                            | 9127 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
+ 317602 | 3311409 | 75308 |   2017 |    1176 |  1055 | Auditoría Actuarial                                 | 9117 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
+ 318328 | 3307465 | 80958 |   2016 |    2016 |  1332 | Inglés                                              | 3036 | 417054436 | Mateos Solorio José Erick    | NP          | f    | f
+ 317611 | 3311410 | 75308 |   2017 |    1176 |  1605 | Legislación en Seguro Privado y Social              | 9126 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
+ 317614 | 3311412 | 75308 |   2017 |    1176 |  1813 | Planeación Estratégica                              | 9129 | 313326437 | Balderas Fernández Viridiana | 10          | f    | f
+ 325756 | 3395147 | 58658 |    217 |     217 |   964 | Seminario de Apoyo a la Titulación en Matemáticas B | EL01 | 410061437 | Garrido Reyes Miguel Daniel  |             | f    | f
 (12 rows)
 
   gid   |   rid   |  tid  | alplid | asgplid | asgid |                       asignatura                       | gpo  |  cuenta   |             alumno              | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+--------------------------------------------------------+------+-----------+---------------------------------+-------------+------+-----
- 322930 | 3395468 | 75591 |   1444 |    1439 |  1625 | Percepción Remota y Sistemas de Información Geográfica | 1100 | 313265899 | Fuentes Cervantes Thiara Alexia | 10          | f    | f
- 322909 | 3395344 | 75591 |   1444 |    1439 |   623 | Geología de México                                     | 1079 | 313265899 | Fuentes Cervantes Thiara Alexia |             | f    | f
- 322933 | 3395469 | 75591 |   1444 |    1439 |  1627 | Recursos Naturales                                     | 1103 | 313265899 | Fuentes Cervantes Thiara Alexia | 10          | f    | f
  323390 | 3395470 | 75591 |   1444 |     181 |    69 | Origen de la Vida                                      | 5346 | 313265899 | Fuentes Cervantes Thiara Alexia | 10          | f    | f
+ 322909 | 3395344 | 75591 |   1444 |    1439 |   623 | Geología de México                                     | 1079 | 313265899 | Fuentes Cervantes Thiara Alexia |             | f    | f
+ 322930 | 3395468 | 75591 |   1444 |    1439 |  1625 | Percepción Remota y Sistemas de Información Geográfica | 1100 | 313265899 | Fuentes Cervantes Thiara Alexia | 10          | f    | f
+ 322933 | 3395469 | 75591 |   1444 |    1439 |  1627 | Recursos Naturales                                     | 1103 | 313265899 | Fuentes Cervantes Thiara Alexia | 10          | f    | f
 (4 rows)
 
  gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
@@ -103,16 +98,12 @@ BEGIN
 -----+-----+-----+--------+---------+-------+------------+-----+--------+--------+-------------+------+-----
 (0 rows)
 
-  gid   |   rid   |  tid  | alplid | asgplid | asgid |                 asignatura                  | gpo  |  cuenta   |           alumno            | caificación | RMAI | EeE 
---------+---------+-------+--------+---------+-------+---------------------------------------------+------+-----------+-----------------------------+-------------+------+-----
- 338433 | 3650253 | 90695 |   1556 |    1556 |  1326 | Matemáticas para las Ciencias Aplicadas III | 1175 | 318356613 | Malagón Gasca Miguel Angel  | NP          | f    | f
- 336407 | 3649043 | 96392 |   1616 |     181 |    68 | Malacología                                 | 5208 | 313321717 | Hernández Díaz Daniel       | 10          | f    | f
- 336631 | 3650251 | 90695 |   1556 |     217 |     5 | Álgebra Lineal I                            | 4150 | 318356613 | Malagón Gasca Miguel Angel  | 09          | f    | f
- 337203 | 3650254 | 90695 |   1556 |    1176 |   625 | Probabilidad I                              | 9026 | 318356613 | Malagón Gasca Miguel Angel  |             | f    | f
- 337454 | 3650252 | 90695 |   1556 |    1556 |  1323 | Modelado y Programación                     | 7044 | 318356613 | Malagón Gasca Miguel Angel  | 08          | f    | f
- 337891 | 3649044 | 96400 |   4146 |     181 |  1001 | Administración de Recursos Naturales        | 5370 | 315318867 | Noria Miguel Juan Sebastián | NP          | f    | f
- 338126 | 3649054 | 96398 |   1616 |     181 |  1014 | Carcinogenésis                              | 5471 | 317042412 | Ruiz Elias Paulina          | NP          | f    | f
-(7 rows)
+  gid   |   rid   |  tid  | alplid | asgplid | asgid |              asignatura              | gpo  |  cuenta   |           alumno            | caificación | RMAI | EeE 
+--------+---------+-------+--------+---------+-------+--------------------------------------+------+-----------+-----------------------------+-------------+------+-----
+ 336407 | 3649043 | 96392 |   1616 |     181 |    68 | Malacología                          | 5208 | 313321717 | Hernández Díaz Daniel       | 10          | f    | f
+ 337891 | 3649044 | 96400 |   4146 |     181 |  1001 | Administración de Recursos Naturales | 5370 | 315318867 | Noria Miguel Juan Sebastián | NP          | f    | f
+ 338126 | 3649054 | 96398 |   1616 |     181 |  1014 | Carcinogenésis                       | 5471 | 317042412 | Ruiz Elias Paulina          | NP          | f    | f
+(3 rows)
 
  gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
 -----+-----+-----+--------+---------+-------+------------+-----+--------+--------+-------------+------+-----
@@ -159,21 +150,19 @@ BEGIN
   gid   |   rid   |  tid  | alplid | asgplid | asgid |            asignatura            | gpo  |  cuenta   |           alumno           | caificación | RMAI | EeE 
 --------+---------+-------+--------+---------+-------+----------------------------------+------+-----------+----------------------------+-------------+------+-----
  335374 | 3558499 | 24113 |    216 |     217 |    91 | Cálculo Diferencial e Integral I | EA24 |  77421977 | Barcenas Perez Jose Luz    |             | f    | f
- 335444 | 3558500 | 24113 |    216 |     217 |   244 | Geometría Analítica I            | EA24 |  77421977 | Barcenas Perez Jose Luz    |             | f    | f
  335731 | 3558498 | 24113 |    216 |     216 |   205 | Física General                   | EA22 |  77421977 | Barcenas Perez Jose Luz    |             | f    | f
- 335832 | 3557578 | 83100 |    181 |     181 |  1501 | Biotecnología I                  | EA22 | 315121111 | Ronzon Rodríguez Gerardo   |             | f    | f
- 335832 | 3558381 | 61943 |    181 |     181 |  1501 | Biotecnología I                  | EA22 | 308336191 | Acevedo Domínguez Samahara |             | f    | f
+ 335444 | 3558500 | 24113 |    216 |     217 |   244 | Geometría Analítica I            | EA24 |  77421977 | Barcenas Perez Jose Luz    |             | f    | f
  335832 | 3558446 | 43823 |    181 |     181 |  1501 | Biotecnología I                  | EA22 | 404100111 | Vicente Valenzuela Bartolo |             | f    | f
+ 335832 | 3558381 | 61943 |    181 |     181 |  1501 | Biotecnología I                  | EA22 | 308336191 | Acevedo Domínguez Samahara |             | f    | f
+ 335832 | 3557578 | 83100 |    181 |     181 |  1501 | Biotecnología I                  | EA22 | 315121111 | Ronzon Rodríguez Gerardo   |             | f    | f
 (6 rows)
 
  gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
 -----+-----+-----+--------+---------+-------+------------+-----+--------+--------+-------------+------+-----
 (0 rows)
 
-  gid   |   rid   |  tid  | alplid | asgplid | asgid |  asignatura   | gpo  |  cuenta   |            alumno            | caificación | RMAI | EeE 
---------+---------+-------+--------+---------+-------+---------------+------+-----------+------------------------------+-------------+------+-----
- 340830 | 3648380 | 88735 |    181 |     181 |  1204 | Sistemática I | EA22 | 311328040 | Navarrete Izazola Iván Uriel |             | f    | f
- 341045 | 3648373 | 38230 |   1081 |    1081 |  2017 | Meteorología  | EA23 | 402068088 | Caballero Correa René        |             | f    | f
-(2 rows)
+ gid | rid | tid | alplid | asgplid | asgid | asignatura | gpo | cuenta | alumno | caificación | RMAI | EeE 
+-----+-----+-----+--------+---------+-------+------------+-----+--------+--------+-------------+------+-----
+(0 rows)
 
 COMMIT

@@ -1,6 +1,6 @@
 BEGIN;
 
-SELECT auth.log_session('Holi xd');
+--SELECT auth.log_session('Holi xd');
 
 SELECT * FROM odin.registros_sin_folio(20191,false) WHERE NOT ("RMAI" or "EeE");
 SELECT * FROM odin.registros_sin_folio(20192,false) WHERE NOT ("RMAI" or "EeE");
