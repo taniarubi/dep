@@ -1,6 +1,6 @@
-f = open("./20232/consultaUwU.txt", "a")
+f = open("./20232/consulta2UwU.txt", "a")
 
-with open("./20232/consulta.txt", "r") as file:
+with open("./20232/consulta2.txt", "r") as file:
     for line in file:
         f.write(line.rstrip().lstrip() + "\n")
         
