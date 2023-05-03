@@ -1,0 +1,17 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.unam.mx	TRUE	/	TRUE	1674334562	_hjFirstSeen	1
+.unam.mx	TRUE	/	FALSE	1740633675	_ga_XQMY3VW7GT	GS1.1.1677561671.3.0.1677561675.0.0.0
+.unam.mx	TRUE	/	FALSE	1678482938	_gat	1
+.unam.mx	TRUE	/	TRUE	1710030371	_hjSessionUser_1257533	eyJpZCI6IjljNGI5MDVjLTFjOGQtNWQ3Ny1hN2YxLTdiYjMxYzI4Zjg1NyIsImNyZWF0ZWQiOjE2NzQzMzI3NjI0NTAsImV4aXN0aW5nIjp0cnVlfQ==
+.unam.mx	TRUE	/	TRUE	1678494491	_hjIncludedInSessionSample_1257533	1
+.unam.mx	TRUE	/	TRUE	1678496202	_hjAbsoluteSessionInProgress	0
+.unam.mx	TRUE	/	TRUE	1678496202	_hjSession_1257533	eyJpZCI6IjE3YTM1ODE1LTczZDMtNDNjMS1hMTkzLTA5ZWIzMWUyNGQzMyIsImNyZWF0ZWQiOjE2Nzg0OTQzNjkwNjYsImluU2FtcGxlIjp0cnVlfQ==
+.unam.mx	TRUE	/	FALSE	1680034365	_gid	GA1.2.914752190.1679947966
+.unam.mx	TRUE	/	FALSE	1743019965	_ga_C2HRHNGTLS	GS1.1.1679947965.1.0.1679947965.0.0.0
+.unam.mx	TRUE	/	FALSE	1743019965	_ga	GA1.1.559990420.1674237181
+#HttpOnly_www.dgae-siae.unam.mx	FALSE	/	FALSE	0	name	value
+#HttpOnly_www.dgae-siae.unam.mx	FALSE	/	TRUE	0	BIGipServer~DGAE~Pool_dgae-orion	53612716.20480.0000
+www.dgae-siae.unam.mx	FALSE	/	FALSE	0	PHPSESSID	0ltk66ejfr3pbdrjmdvfsvkal2

@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-f = open("./20232/consulta2UwU.txt", "a")
+with open('consulta8.txt', 'r') as f:
+    # Leer las líneas del archivo
+    lines = f.readlines()
 
-with open("./20232/consulta2.txt", "r") as file:
-=======
-f = open("consulta2.txt", "a")
+# Eliminar las primeras tres líneas y las últimas tres líneas
+lines = lines[3:-3]
 
-with open("/home/tania/Documents/dep/feu/20232/consulta3.txt", "r") as file:
->>>>>>> 3778105 (TODO!)
-    for line in file:
-        f.write(line.rstrip().lstrip() + "\n")
-        
-f.close()
-        
-print("Ya no hay espacios en blanco :D")
+# Eliminar los espacios en blanco al inicio de cada línea
+lines = [line.lstrip() for line in lines]
+
+with open('archivo_modificado.txt', 'w') as f:
+    # Escribir las líneas modificadas en un nuevo archivo
+    f.writelines(lines)
