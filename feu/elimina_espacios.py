@@ -1,4 +1,4 @@
-with open('consulta8.txt', 'r') as f:
+with open('consulta1.txt', 'r') as f:
     # Leer las líneas del archivo
     lines = f.readlines()
 

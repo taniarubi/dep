@@ -1,6 +1,1 @@
-BERA681126LC8BERA681126MDFRCR020003BERNABE                                 ROCHA                                   MARIA ARACELI                                               2MF01342281C
-CAAL741026NK6CAAL741026MDFRPL090003CARMONA                                 APARICIO                                LILIANA                                                     2MF01471071C
-FEAA440714C91FEAA440716MDFRLN030003FERNANDEZ                               ALAMO                                   MARIA ANA DEL CARMEN                                        2MF00409872C
-GOVA770930325GOVA740930MDFNLL070003GONZALEZ                                VALDEZ                                  ALEJANDRA ABIGAIL                                           3MF08413543C
-JUMS6601035I9JUMS660103HDFRNL020003JUAREZ                                  MENA                                    SAUL                                                        5MM08135100C
-PODT671213A75PODT671213MDFZLR080003POZOS                                   DELGADO                                 MARIA TERESA                                                3MF01611241C
+GOLC5003313T2GOLC500331HDFMRR060003GOMEZ                                   LARRAÑAGA                               JOSE CARLOS                                                 2MM07304240C
