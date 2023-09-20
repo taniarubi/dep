@@ -1,0 +1,35 @@
+CREATE TABLE
+COPY 31
+        curp        |                 e_mail                 |              e_mail2              
+--------------------+----------------------------------------+-----------------------------------
+ AASM941110HDFLNR07 | maalbarrans@ciencias.unam.mx           | maalbarrans@ciencias.unam.mx
+ BAWA530627MDFRLD14 | wbravo@dgdc.unam.mx                    | wbravo@universum.unam.mx
+ CAAS790908MDFSLN08 | sandracastason@yahoo.com.mx            | 
+ CASY871107HHGMRR09 | ycamargo@ciencias.unam.mx              | ycamargo@ciencias.unam.mx
+ CEML740718MDFRRL08 | liliancervante@ciencias.unam.mx        | liliancervante_mar@yahoo.com.mx
+ CORM770928HDFHDG09 | m_a_chong@ciencias.unam.mx             | m_a_chong@yahoo.com.mx
+ SOAS881028MDFLNL01 | solisangeles120@gmail.com              | solisangeles120@ciencias.unam.mx
+ VARB871026MDFRCR03 | brenda.vargas.rocha@gmail.com          | ubik_ups@hotmail.com
+ VEMR520220HMNRNG08 | rigovera@gmail.com                     | 
+ ZACA910719MMCRMN04 | gabriella_100@ciencias.unam.mx         | gabriella_100@ciencias.unam.mx
+ ZARF680529HDFMML07 | felipezam@gmail.com                    | zrf@minervaux2.fciencias.unam.mx
+ CAAC811216MDFLGC09 | ceciliamaria.calderon@gmail.com        | huizachal@yahoo.com
+ GUVX851019MDFTSM04 | ximena.gutierrezv@gmail.com            | 
+ HEDS911006MDFRMR09 | sarajacqueline.hd@ciencias.unam.mx     | xara_shat@hotmail.com
+ HEMF750312HPLRRR05 | fjavier.hernandez@ciencias.unam.mx     | fmoreno@nucleares.unam.mx
+ IARA880407MPLBYT06 | atziribarra@ciencias.unam.mx           | 
+ LIIJ901108HDFNBV00 | javitt_08@hotmail.com                  | javitt_306086182@ciencias.unam.mx
+ LOVA870313MDFPLL08 | alejandralopezv@ciencias.unam.mx       | 
+ MOMJ900516HDFRNR04 | morenojorgem@gmail.com                 | morenojorgem@gmail.com
+ MUSM880419MDFXRN04 | m3s@ciencias.unam.mx                   | m3s@ciencias.unam.mx
+ NIVN620606HMNTZR07 | norniva622@ciencias.unam.mx            | 
+ OIGJ811029MDFRTZ00 | deneb.ortigosa@ciencias.unam.mx        | jazmindeneb@hotmail.com
+ PALP640522HDFDNB00 | pabpad@gmail.com                       | pablo@mym.iimas.unam.mx
+ PETD820105HDFRRN07 | danielxtorresx@gmail.com               | entropy82@hotmail.com
+ RASA920328HMCMLN00 | r.s.anthonyy@gmail.com                 | anthony.anthony@ciencias.unam.mx
+ RIRJ720529MDFVMN03 | jleticia29.docencia@gmail.com          | jleticia29@gmail.com
+ ROMM650116HDFMRR02 | martin.romero.martinez@gmail.com       | 
+ SIAI821120MDFLDR03 | adayadani@gmail.com                    | dan04siad@hotmail.com
+ VACC950918MSRLRR02 | carolinaval@estudiantes.fisica.unam.mx | 
+(29 rows)
+ 
